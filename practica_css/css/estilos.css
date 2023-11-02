@@ -1,0 +1,59 @@
+body {
+    background-color: #C9CFDC;
+}
+#cabecera {
+    height: 120px;
+    background-color: #5D1D5D;
+}
+#sitename {
+    font-size: 2em;
+    text-align: center;
+    font-weight: bold;
+    color: white;
+    padding: 40px;
+}
+#cabecera img {
+    width: 8%;
+    float: left;
+}
+#menu-superior {
+    float: right;
+}
+#menu-superior ul {
+    list-style: none;
+}
+
+#menu-superior ul li {
+    display: inline-block;
+}
+
+#menu-superior ul li a {
+    color: white;
+    font-size: 1em;
+    text-decoration: none;
+    font-weight: bold;
+    padding-right: 20px;
+}
+
+#menu-superior ul li a:hover {
+    font-size: 1.2em;
+}
+.izquierda {
+    width: 30%;
+    float: left;
+}
+.derecha {
+    width: 70%;
+    float: right;
+}
+.pie {
+    clear: both;
+    background-color: #545154;
+    height: 80px;
+}
+
+.pie h4 {
+    color: #ffffff;
+    padding-top: 30px;
+    text-align: center;
+}
